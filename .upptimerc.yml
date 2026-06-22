@@ -1,31 +1,114 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: nghtw
+repo: status
+user-agent: nghtw-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Mistwood
+    url: https://mistwood.pl
+    maxResponseTime: 5000
+
+  - name: Mistwood API (PTB)
+    url: https://api.ptb.mistwood.pl/healthz
+    maxResponseTime: 3000
+
+  - name: Mistwood API
+    url: https://api.mistwood.pl/healthz
+    maxResponseTime: 3000
+
+  - name: Mistwood PTB
+    url: https://ptb.mistwood.pl
+    maxResponseTime: 5000
+
+assignees:
+  - imxeno
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.mistwood.pl
+  logoUrl: https://mistwood.pl/images/ui/logo.png
+  name: Status Mistwood
+  introTitle: "Status usług Mistwood"
+  introMessage: "Monitorujemy dostępność publicznych usług Mistwood. Dane są aktualizowane automatycznie przez GitHub Actions."
   navbar:
     - title: Status
       href: /
+    - title: Mistwood
+      href: https://mistwood.pl
+    - title: PTB
+      href: https://ptb.mistwood.pl
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Aktywne incydenty
+  allSystemsOperational: Wszystkie systemy działają poprawnie
+  incidentReport: "Raport incydentu #$NUMBER →"
+  activeIncidentSummary: "Otwarto $DATE, wpisy: $POSTS"
+  incidentTitle: "Szczegóły incydentu #$NUMBER"
+  incidentDetails: Szczegóły incydentu
+  incidentFixed: Naprawiono
+  incidentOngoing: W toku
+  incidentOpenedAt: Otwarto
+  incidentClosedAt: Zamknięto
+  incidentViewOnGitHub: Zobacz i subskrybuj na GitHubie
+  incidentCommentSummary: "Opublikowano $DATE przez $AUTHOR"
+  incidentBack: "← Wróć do wszystkich incydentów"
+  pastIncidents: Poprzednie incydenty
+  pastIncidentsResolved: "Rozwiązano w $MINUTES min, wpisy: $POSTS"
+  liveStatus: Status na żywo
+  overallUptime: "Łączna dostępność: $UPTIME"
+  overallUptimeTitle: Łączna dostępność
+  averageResponseTime: "Średni czas odpowiedzi: $TIME ms"
+  averageResponseTimeTitle: Średnia odpowiedź
+  sevelDayResponseTime: Czas odpowiedzi z 7 dni
+  responseTimeMs: Czas odpowiedzi (ms)
+  up: Działa
+  down: Niedostępne
+  degraded: Spowolnione
+  ms: ms
+  loading: Ładowanie
+  navGitHub: GitHub
+  footer: "Ta strona jest [open source]($REPO) i działa dzięki [Upptime](https://upptime.js.org)"
+  rateLimitExceededTitle: Przekroczono limit zapytań
+  rateLimitExceededIntro: Przekroczono liczbę zapytań dozwolonych w ciągu godziny. Spróbuj ponownie później albo dodaj token GitHub Personal Access Token, aby dalej korzystać ze strony.
+  rateLimitExceededWhatDoesErrorMean: Co oznacza ten błąd?
+  rateLimitExceededErrorMeaning: Ta strona korzysta z GitHub API, aby pobierać aktualne dane o statusie usług. Domyślnie GitHub pozwala na 60 zapytań na godzinę z jednego adresu IP.
+  rateLimitExceededErrorHowCanFix: Jak to naprawić?
+  rateLimitExceededErrorFix: Możesz poczekać godzinę na odnowienie limitu albo dodać GitHub Personal Access Token, który zwiększa limit do 5000 zapytań na godzinę.
+  rateLimitExceededGeneratePAT: Dowiedz się, jak wygenerować Personal Access Token
+  rateLimitExceededHasSet: Token Personal Access Token jest ustawiony.
+  rateLimitExceededRemoveToken: Usuń token
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: Wklej swój token
+  rateLimitExceededSaveToken: Zapisz token
+  errorTitle: Wystąpił błąd
+  errorIntro: Wystąpił błąd podczas pobierania najnowszych informacji o statusie.
+  errorText: Spróbuj ponownie za chwilę.
+  errorHome: Wróć na stronę główną
+  pastScheduledMaintenance: Poprzednie prace techniczne
+  scheduledMaintenance: Zaplanowane prace techniczne
+  scheduledMaintenanceSummaryStarted: "Rozpoczęto $DATE, czas trwania: $DURATION min"
+  scheduledMaintenanceSummaryStarts: "Rozpocznie się $DATE, czas trwania: $DURATION min"
+  startedAt: Rozpoczęto
+  startsAt: Rozpocznie się
+  duration: Czas trwania
+  durationMin: "$DURATION min"
+  incidentCompleted: Zakończono
+  incidentScheduled: Zaplanowano
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1r
+  durationAll: całość
+  locale: pl-PL
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "0 */6 * * *"
+  graphs: "0 0 * * *"
+  summary: "10 0 * * *"
+  staticSite: "20 0 * * *"
+  updateTemplate: "0 0 * * 0"
+  updates: "30 0 * * *"

@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mistwood.pl.ico",
     "slug": "mistwood-api",
     "status": "down",
-    "uptime": "9.91%",
-    "uptimeDay": "9.91%",
-    "uptimeWeek": "9.91%",
-    "uptimeMonth": "9.91%",
-    "uptimeYear": "9.91%",
+    "uptime": "0.45%",
+    "uptimeDay": "0.45%",
+    "uptimeWeek": "0.45%",
+    "uptimeMonth": "0.45%",
+    "uptimeYear": "0.45%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-22": 3
+      "2026-06-22": 81
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://ptb.mistwood.pl",
     "icon": "https://icons.duckduckgo.com/ip3/ptb.mistwood.pl.ico",
     "slug": "mistwood-ptb",
-    "status": "down",
-    "uptime": "5.84%",
-    "uptimeDay": "5.84%",
-    "uptimeWeek": "5.84%",
-    "uptimeMonth": "5.84%",
-    "uptimeYear": "5.84%",
-    "time": 74,
-    "timeDay": 74,
-    "timeWeek": 74,
-    "timeMonth": 74,
-    "timeYear": 74,
+    "status": "up",
+    "uptime": "0.32%",
+    "uptimeDay": "0.32%",
+    "uptimeWeek": "0.32%",
+    "uptimeMonth": "0.32%",
+    "uptimeYear": "0.32%",
+    "time": 98,
+    "timeDay": 98,
+    "timeWeek": 98,
+    "timeMonth": 98,
+    "timeYear": 98,
     "dailyMinutesDown": {
-      "2026-06-22": 3
+      "2026-06-22": 81
     }
   },
   {

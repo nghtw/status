@@ -7,12 +7,12 @@ sites:
     url: https://mistwood.pl
     maxResponseTime: 5000
 
-  - name: Mistwood API (PTB)
-    url: https://api.ptb.mistwood.pl/healthz
-    maxResponseTime: 3000
-
   - name: Mistwood API
     url: https://api.mistwood.pl/healthz
+    maxResponseTime: 3000
+
+  - name: Mistwood API (PTB)
+    url: https://api.ptb.mistwood.pl/healthz
     maxResponseTime: 3000
 
   - name: Mistwood PTB

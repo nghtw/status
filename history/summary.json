@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 542,
-    "timeDay": 542,
-    "timeWeek": 542,
-    "timeMonth": 542,
-    "timeYear": 542,
+    "time": 545,
+    "timeDay": 545,
+    "timeWeek": 545,
+    "timeMonth": 545,
+    "timeYear": 545,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,38 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.mistwood.pl.ico",
     "slug": "mistwood-api",
     "status": "down",
-    "uptime": "48.41%",
-    "uptimeDay": "48.41%",
-    "uptimeWeek": "48.41%",
-    "uptimeMonth": "48.41%",
-    "uptimeYear": "48.41%",
+    "uptime": "9.91%",
+    "uptimeDay": "9.91%",
+    "uptimeWeek": "9.91%",
+    "uptimeMonth": "9.91%",
+    "uptimeYear": "9.91%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-06-22": 0
+      "2026-06-22": 3
+    }
+  },
+  {
+    "name": "Mistwood PTB",
+    "url": "https://ptb.mistwood.pl",
+    "icon": "https://icons.duckduckgo.com/ip3/ptb.mistwood.pl.ico",
+    "slug": "mistwood-ptb",
+    "status": "down",
+    "uptime": "5.84%",
+    "uptimeDay": "5.84%",
+    "uptimeWeek": "5.84%",
+    "uptimeMonth": "5.84%",
+    "uptimeYear": "5.84%",
+    "time": 74,
+    "timeDay": 74,
+    "timeWeek": 74,
+    "timeMonth": 74,
+    "timeYear": 74,
+    "dailyMinutesDown": {
+      "2026-06-22": 3
     }
   },
   {
@@ -48,31 +68,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 326,
-    "timeDay": 326,
-    "timeWeek": 326,
-    "timeMonth": 326,
-    "timeYear": 326,
+    "time": 406,
+    "timeDay": 406,
+    "timeWeek": 406,
+    "timeMonth": 406,
+    "timeYear": 406,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "Mistwood PTB",
-    "url": "https://ptb.mistwood.pl",
-    "icon": "https://icons.duckduckgo.com/ip3/ptb.mistwood.pl.ico",
-    "slug": "mistwood-ptb",
-    "status": "down",
-    "uptime": "54.09%",
-    "uptimeDay": "54.09%",
-    "uptimeWeek": "54.09%",
-    "uptimeMonth": "54.09%",
-    "uptimeYear": "54.09%",
-    "time": 43,
-    "timeDay": 43,
-    "timeWeek": 43,
-    "timeMonth": 43,
-    "timeYear": 43,
-    "dailyMinutesDown": {
-      "2026-06-22": 0
-    }
   }
 ]
